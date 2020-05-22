@@ -161,3 +161,7 @@ button {
 .lose a {
   color: var(--color-lose);
 }
+
+.transition{
+  transition: 1s ease-in;
+}
