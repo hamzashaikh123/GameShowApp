@@ -10,7 +10,9 @@ const phrases = [
     'toronto raptors',
     'utah jazz',
     'chicago bulls',
-    'miami heat'
+    'miami heat',
+    'golden state warriors',
+    'brooklyn nets'
 ];
 
 let ul = document.querySelector('#phrase ul');
