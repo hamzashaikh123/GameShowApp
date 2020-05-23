@@ -132,7 +132,7 @@ qwerty.addEventListener("click", button =>{
         button.target.setAttribute('disabled', true);
     }
     let letterFound = checkLetters(button.target.textContent);
-    if (letterFound===null){
+    if (letterFound===null && button.target.tagName==="BUTTON"){
         lives[missed].style.display='none';
         missed+=1;
     }
